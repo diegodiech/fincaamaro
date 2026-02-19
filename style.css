@@ -18,10 +18,11 @@ header {
 }
 
 #logo {
-    max-width: 120px;
-    height: auto;
-    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5)); /* Resalta tu marca */
-    margin-bottom: 10px;
+    max-width: 150px; /* Ajusta este número según qué tan grande quieras el logo */
+    height: auto;     /* Mantiene la proporción para que no se vea estirado */
+    display: block;   /* Lo centra mejor */
+    margin: 0 auto 10px auto; 
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.3)); /* Le da relieve */
 }
 
 nav a {
